@@ -1,0 +1,30 @@
+{
+  "name": "tienda-sa",
+  "version": "1.0.0",
+  "description": "Ejemplo de tienda de conveniencia",
+  "keywords": [
+    "next.js",
+    "tailwind",
+    "api",
+    "prisma",
+    "postgresal",
+    "playwright",
+    "typescript",
+    "chatbot"
+  ],
+  "homepage": "https://github.com/Hosafatto/Tienda-SA#readme",
+  "bugs": {
+    "url": "https://github.com/Hosafatto/Tienda-SA/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hosafatto/Tienda-SA.git"
+  },
+  "license": "ISC",
+  "author": "Hosafatto",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
