@@ -25,6 +25,16 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "playwright:install": "playwright install",
+    "playwright:test": "playwright test",
+    "format": "prettier --write .",
+    "test": "echo \"No tests specified\" && exit 0"
   }
 }
